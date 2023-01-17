@@ -3,3 +3,5 @@
 	name = govindchari
 [credential]
 	helper = cache
+[pull]
+	ff = true
