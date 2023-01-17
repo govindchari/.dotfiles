@@ -14,3 +14,7 @@ alias cdg='cd ~/Desktop/git'
 alias papers='cd ~/Desktop/Papers/ && nautilus .'
 alias svba='source venv/bin/activate'
 alias cam='conda activate manim-env'
+
+mat(){
+matlab -nodisplay -nosplash -nodesktop -r "run('$1');exit;" | tail -n +11
+}
