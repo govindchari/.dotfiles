@@ -17,6 +17,8 @@ alias cam='conda activate manim-env'
 alias gst='git status'
 alias gcm='git commit -m'
 alias gp='git push'
+alias ga='git add .'
+alias gs='git status'
 
 mat(){
 matlab -nodisplay -nosplash -nodesktop -r "run('$1');exit;" | tail -n +11
