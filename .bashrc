@@ -117,8 +117,17 @@ if ! shopt -oq posix; then
 fi
 eval "$(starship init bash)"
 export PATH="$PATH:/usr/bin/julia-1.7.2/bin"
-export PATH="$PATH:/usr/local/MATLAB/R2022a/bin/"
+export PATH="$PATH:/usr/local/MATLAB/R2022b/bin/"
 export PATH="$PATH:/usr/local/texlive/2022/bin/x86_64-linux"
+export PATH="$PATH:/home/mosek/10.0/tools/platform/linux64x86/bin"
+
+export GUROBI_HOME="/opt/gurobi1001/linux64"
+export PATH="${PATH}:${GUROBI_HOME}/bin"
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
+export LD_LIBRARY_PATH="${GUROBI_HOME}/lib"
+export GRB_LICENSE_FILE="/opt/gurobi1001/gurobi.lic"
+
+
 shopt -s autocd
 
 # >>> conda initialize >>>
