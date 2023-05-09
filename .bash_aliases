@@ -16,7 +16,7 @@ alias svba='source venv/bin/activate'
 alias cam='conda activate manim-env'
 alias gcm='git commit -m'
 alias gp='git push'
-alias ga='git add .'
+alias ga='git add'
 alias gs='git status'
 alias gd='git diff'
 

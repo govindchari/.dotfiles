@@ -116,10 +116,11 @@ if ! shopt -oq posix; then
   fi
 fi
 eval "$(starship init bash)"
-export PATH="$PATH:/usr/bin/julia-1.7.2/bin"
+export PATH="$PATH:/usr/bin/julia-1.9.0-rc2/bin"
 export PATH="$PATH:/usr/local/MATLAB/R2022b/bin/"
 export PATH="$PATH:/usr/local/texlive/2022/bin/x86_64-linux"
 export PATH="$PATH:/home/mosek/10.0/tools/platform/linux64x86/bin"
+export PATH="$PATH:/home/govind/shell-utils"
 
 export GUROBI_HOME="/opt/gurobi1001/linux64"
 export PATH="${PATH}:${GUROBI_HOME}/bin"

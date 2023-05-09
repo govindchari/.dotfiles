@@ -2,6 +2,6 @@
 	email = govindchari1@gmail.com
 	name = govindchari
 [credential]
-	helper = cache
+	helper = cache --timeout=604800
 [pull]
 	ff = true
